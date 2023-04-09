@@ -2,6 +2,10 @@
 
 Saya Davin mengerjakan evaluasi TP2DPBO2023 dalam mata kuliah DPBO untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
+#PENTING SEKALI
+file kegedeean, nih link gdrive
+https://drive.google.com/drive/folders/1lbLsKTshlQvHhbBuwcrzeEQBI8YCHUjE?usp=share_link
+
 Penjelasan?
 
 Jujur, saya juga nggak tahu apa yang dijelasin wwww
