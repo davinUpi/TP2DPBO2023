@@ -64,7 +64,6 @@ public class modelUser extends DbConnector {
         
         String query = "SELECT * from users where user_name = '"+input_name+"'";
         ResultSet temp = select(query);
-        System.out.println(query);
         if(temp != null){
             try{
                 temp.first();
@@ -83,7 +82,7 @@ public class modelUser extends DbConnector {
     }
     
     public int insertUser(String input_name, String input_pass){
-        String query = "INSERT INTO users(user_id, user_name) VALUES ('"+input_name+"', '"+input_pass+"')";
+        String query = "INSERT INTO users(user_name, user_pass) VALUES ('"+input_name+"', '"+input_pass+"')";
         return manipulate(query);
     }
     

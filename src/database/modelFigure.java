@@ -101,7 +101,7 @@ public class modelFigure extends DbConnector {
         String type = figure.getType().getStringVal();
         String img = figure.getImg();
         int man = figure.getManufacturer().getId();
-        String query = "UPDATE figure SET figure_name = '"+name+"', figure_type = '"+type+"', figure_img = '"+img+"', figure_manufacturer = "+man+" WHERE figure_id = "+id;
+        String query = "UPDATE figures SET figure_name = '"+name+"', figure_type = '"+type+"', figure_img = '"+img+"', figure_manufacturer = "+man+" WHERE figure_id = "+id;
         return manipulate(query);
     }
     

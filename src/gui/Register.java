@@ -157,7 +157,7 @@ public class Register extends javax.swing.JPanel {
                     int check = model.insertUser(name, pass);
                     if(check != 0){
                         startFrame stf = (startFrame)getTopLevelAncestor();
-                        stf.setState(2);
+                        stf.setDisplayState(2);
                     }
                     else{
                         JOptionPane.showMessageDialog(null, "gagal insert");}
